@@ -46,11 +46,11 @@ def send_email(title, content):
     sender = 'dailyarxiv@163.com'
     #发送者的登陆用户名和密码
     user = 'dailyarxiv@163.com'
-    password = 'jjj111'#dailyarxiv123
+    password = 'aaaaaaaa'#dailyarxiv123
     #发送者邮箱的SMTP服务器地址
     smtpserver = 'smtp.163.com'
     #接收者的邮箱地址
-    receiver = '39960618@qq.com' #receiver 可以是一个list
+    receiver = 'youremail@qq.com' #receiver 可以是一个list
 
 
     msg = MIMEMultipart('alternative')  
